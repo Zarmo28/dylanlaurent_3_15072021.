@@ -29,11 +29,13 @@ h6 {
 h1, h6 {
   font-family: Shrikhand, Roboto, sans-serif;
 }
-
+h3
+{
+font-size: 1.5em;
+}
 body, html {
   font-family: "Roboto", sans-serif;
 }
-
 @keyframes grow {
   0%, 100% {
     -webkit-transform: scaleY(1);
@@ -177,12 +179,7 @@ footer ul .fa-hands-helping {
 }
 
 .restaurant__title h3 {
-  padding: 30px 0px 0px 10px;
-}
-@media screen and (min-width: 768px) {
-  .restaurant__title h3 {
-    text-align: center;
-  }
+  padding: 30px 0px 0px  20px;
 }
 
 .card {
@@ -604,8 +601,8 @@ footer ul .fa-hands-helping {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 25px;
-  margin: 15px 20px 15px 30px;
+  padding: 1px;
+  margin: 12px 12px 15px 12px;
   border-radius: 20px;
   box-shadow: 1px 2px 8px 2px #c4c4c4;
   background-color: #f5f5f5;
@@ -625,7 +622,7 @@ footer ul .fa-hands-helping {
   color: white;
   border-radius: 50%;
   padding: 5px 9px;
-  margin-left: -40px;
+  margin-left: -15px;
 }
 .operation__steps--icon {
   color: grey;
